@@ -8,7 +8,21 @@
 /* header */
 
 .fixed-container{
-
+    height: 10vh;
+    width: 100%;
+    background-color: blue;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+}
+#top-container{
+    top: 0;
+    right: 0;
+}
+#bottom-container{
+    bottom: 0;
+    left: 0;
 }
 
 
@@ -20,18 +34,37 @@
     flex-wrap: wrap;
     gap: 5px;
     justify-content: center;
+    padding: 125px 0 125px 0;  /*alternative??? */
+    background-color: black;
     
 }
-.img-container div{
-    background-color: aqua;
-    border: solid 2px black;
+.box-testo-img{
+    background-color: rgba(0, 0, 0, .5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 5px 5px 5px;
+  
+}
+.img-container-due{
     height: 200px;
     width: 13%;
-    
+    position: relative;
+    padding-top: 10px;
 }
 div.img-container img{
     width: 100%;
     height: 100%;
+}
+
+.fa-microphone-slash{
+ 
+    color: white;
+    font-size: 15px;
+}
+span{
+   color: white;
+
 }
 
 /* footer */
@@ -41,20 +74,24 @@ div.img-container img{
 
 /* debug */
 
-header div{
+/* header div{
     height: 10vh;
     width: 100%;
     background-color: orange;
     position: fixed;
     top: 0;
     left: 0;
-}
+} */
 
-footer div{
+/* footer div{
     height: 10vh;
     width: 100%;
     background-color: black;
     position: fixed;
     bottom: 0;
     left: 0;
+} */
+
+main{
+    height: 120%;
 }
