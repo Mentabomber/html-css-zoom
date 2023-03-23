@@ -8,8 +8,6 @@
 .fixed-container{
     height: 10vh;
     width: 100%;
-    bottom: 0;
-    left: 0;
     z-index: 999;
 }
 
@@ -17,8 +15,6 @@
 
 
 #top-container{
-    top: 0;
-    right: 0;
     background-color: black;
 }
 
@@ -80,22 +76,55 @@ span{
 
 /* footer */
 
+
 #bottom-container{
-    bottom: 0;
-    left: 0;
     background-color: rgb(74,74,74);
-}
-
-#flex-container{
     display: flex;
-    justify-content: space-evenly;
-
+    position: relative;
+    z-index: 998;
+    width: 100%;
+   
 }
 
-footer ul{
-    list-style-type: none;
+.mic , .up-arrow,.stop-video,.up-arrow2{
+    position: absolute;
+    translate: (-50% -50%);
+    font-size: 30px;
     color: white;
 }
+.mic{
+    bottom: 10px;
+    left: 50px;
+}
+.up-arrow{
+    bottom:40px;
+    left: 110px;
+    font-size: 15px;
+}
+
+.stop-video{
+    bottom: 10px;
+    left: 170px;
+}
+.up-arrow2{
+    bottom:40px;
+    left: 260px;
+    font-size: 15px;
+}
+footer i{
+    display: block;
+}
+.blocco{
+    display: block;
+    text-align: center
+}
+footer span{
+    font-size: 17px;
+}
+
+
+
+
 
 /* debug */
 
