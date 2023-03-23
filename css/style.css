@@ -1,0 +1,56 @@
+/* regole generali */
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+.fixed-container{
+
+}
+
+
+
+/* main  */
+
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    
+}
+.img-container div{
+    background-color: aqua;
+    border: solid 2px black;
+    height: 200px;
+    width: 13%;
+    
+}
+
+/* footer */
+
+
+
+
+/* debug */
+
+header div{
+    height: 10vh;
+    width: 100%;
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+footer div{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
